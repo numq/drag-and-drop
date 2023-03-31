@@ -165,7 +165,7 @@ fun ColumnScreen() {
                 onListCollision(it, rightColumn)
             }), rightColumn, rightColumnListState, onUpload = {
                 setUploadState(UploadState.Active(rightColumn))
-            }) { idx, item ->
+            }) { _, item ->
                 Card(Modifier.aspectRatio(1f).size(64.dp)
                     .collider(draggableCenter, CollisionType.Vertical, onCollision = {
                         onItemCollision(it, item)

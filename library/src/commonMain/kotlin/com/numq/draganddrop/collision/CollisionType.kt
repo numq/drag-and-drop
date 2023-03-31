@@ -7,6 +7,5 @@ enum class CollisionType {
         val Container = listOf(ZERO, BOX)
         val Horizontal = listOf(ZERO, LEFT, RIGHT)
         val Vertical = listOf(ZERO, TOP, BOTTOM)
-
     }
 }
