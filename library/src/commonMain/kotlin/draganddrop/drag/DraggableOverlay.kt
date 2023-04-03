@@ -1,4 +1,4 @@
-package com.numq.draganddrop.drag
+package draganddrop.drag
 
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.size

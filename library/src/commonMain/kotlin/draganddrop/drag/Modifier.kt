@@ -1,4 +1,4 @@
-package com.numq.draganddrop.drag
+package draganddrop.drag
 
 import androidx.compose.foundation.gestures.detectDragGesturesAfterLongPress
 import androidx.compose.runtime.Composable

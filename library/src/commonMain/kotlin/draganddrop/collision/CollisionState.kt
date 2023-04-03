@@ -1,4 +1,4 @@
-package com.numq.draganddrop.collision
+package draganddrop.collision
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember

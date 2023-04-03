@@ -1,4 +1,4 @@
-package com.numq.draganddrop.drag
+package draganddrop.drag
 
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.geometry.Offset

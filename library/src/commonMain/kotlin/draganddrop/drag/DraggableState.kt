@@ -1,4 +1,4 @@
-package com.numq.draganddrop.drag
+package draganddrop.drag
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -7,9 +7,7 @@ import androidx.compose.ui.geometry.Size
 
 
 @Composable
-fun <T> rememberDraggableState() = remember {
-    DraggableState<T>()
-}
+fun <T> rememberDraggableState() = remember { DraggableState<T>() }
 
 class DraggableState<T> {
     var item: T? = null

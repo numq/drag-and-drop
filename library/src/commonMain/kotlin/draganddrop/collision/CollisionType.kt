@@ -1,4 +1,4 @@
-package com.numq.draganddrop.collision
+package draganddrop.collision
 
 enum class CollisionType {
     ZERO, BOX, LEFT, TOP, BOTTOM, RIGHT;
