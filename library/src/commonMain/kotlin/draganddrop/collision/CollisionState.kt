@@ -4,9 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 
 @Composable
-fun <T> rememberCollisionState() = remember {
-    CollisionState<T>()
-}
+fun <T> rememberCollisionState() = remember { CollisionState<T>() }
 
 class CollisionState<T> {
     var item: T? = null
